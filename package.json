@@ -1,0 +1,17 @@
+{
+  "name": "advent-of-code-2022",
+  "version": "1.0.0",
+  "description": "Advent of Code 2022 - JS solutions",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Igor Leahu <igor.leahu24@gmail.com>",
+  "devDependencies": {
+    "prettier": "^2.8.0"
+  },
+  "dependencies": {
+    "ramda": "^0.28.0"
+  }
+}
