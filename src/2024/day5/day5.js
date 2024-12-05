@@ -3,6 +3,7 @@ import {
   __,
   applySpec,
   compose,
+  curry,
   head,
   last,
   map,
@@ -42,7 +43,24 @@ const part1 = compose(
   prepare,
 );
 
-// const part2 = compose(prepare);
+const arrange = curry((rules, pages) =>
+  pages.some((page, i) =>
+    pages.slice(i + 1).some((nextPage, j) => {
+      if (!rules[page]?.[nextPage]) {
+        [pages[i], pages[i + 1 + j]] = [nextPage, page];
+        arrange(rules, pages);
+        return true;
+      }
+      return false;
+    }),
+  ),
+);
+
+const part2 = compose(
+  sumMiddlePages,
+  ({ rules, updates }) => updates.filter(arrange(rules)),
+  prepare,
+);
 
 console.log('part 1', part1(data));
-// console.log('part 2', part2(data));
+console.log('part 2', part2(data));
