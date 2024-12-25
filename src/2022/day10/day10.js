@@ -54,5 +54,4 @@ const part1 = compose(parse, prepare);
 const part2 = compose(join('\n'), render, prepare);
 
 console.log('part 1', part1(data));
-console.log('part 2');
-console.log(part2(data))
+console.log('part 2', part2(data));

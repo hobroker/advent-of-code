@@ -4,14 +4,22 @@
   "description": "Advent of Code 2022 - JS solutions",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node lib/docs/index.js",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "Igor Leahu <igor.leahu24@gmail.com>",
   "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.11",
+    "markdown-table": "^3.0.4",
     "prettier": "^2.8.0"
   },
   "dependencies": {
     "ramda": "^0.28.0"
+  },
+  "lint-staged": {
+    "*.{md,js}": "npm run generate"
   }
 }

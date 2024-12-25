@@ -48,5 +48,5 @@ const part2 = compose(
   prepare,
 );
 
-// console.log('part 1', part1(data));
+console.log('part 1', part1(data));
 console.log('part 2', part2(data));
