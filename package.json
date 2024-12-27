@@ -5,19 +5,25 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate": "node lib/docs/index.js",
+    "generate": "node lib/docs/index.js && git add README.md",
     "prepare": "husky"
   },
   "keywords": [],
   "author": "Igor Leahu <igor.leahu24@gmail.com>",
   "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "globals": "^15.14.0",
     "husky": "^9.1.7",
-    "lint-staged": "^15.2.11",
+    "lint-staged": "^15.3.0",
     "markdown-table": "^3.0.4",
-    "prettier": "^2.8.0"
+    "prettier": "^3.4.2"
   },
   "dependencies": {
-    "ramda": "^0.28.0"
+    "ramda": "^0.30.1"
   },
   "lint-staged": {
     "*.{md,js}": "npm run generate"
