@@ -32,7 +32,7 @@ const part2 = compose(
     return slots;
   },
   map(item => {
-    let [label, focal] = item.split(/[-=]/);
+    const [label, focal] = item.split(/[-=]/);
     return focal ? { op: '=', label, focal: +focal } : { op: '-', label };
   }),
   prepare,

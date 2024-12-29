@@ -18,7 +18,7 @@ import {
 
 const data = read('input.txt');
 
-const toCode = (letter) => {
+const toCode = letter => {
   const charCode = letter.charCodeAt(0);
   const result = charCode - 96;
   return result > 0 ? result : charCode - 38;

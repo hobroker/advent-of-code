@@ -41,7 +41,7 @@ const prepare = compose(
 );
 
 const moveCrates =
-  (fn) =>
+  fn =>
   ([rows, steps]) => {
     const result = clone(rows);
     steps.forEach(([move, from, to]) =>

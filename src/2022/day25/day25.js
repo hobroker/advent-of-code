@@ -35,7 +35,7 @@ const maxSnafu = compose(
   join(''),
   converge(repeat, [always('2'), add(1)]),
 );
-const snafuVal = compose(head, head, (d) =>
+const snafuVal = compose(head, head, d =>
   toPairs(snafuMap).find(compose(equals(d), last)),
 );
 const dec2snafu = (dec, snafu = '') => {

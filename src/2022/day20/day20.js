@@ -18,7 +18,7 @@ const prepare = compose(map(compose(objOf('n'), Number)), split('\n'));
 const mix = curry((times, input) => {
   const mixed = [...input];
   for (let idx = 0; idx < times; idx++) {
-    input.forEach((number) => {
+    input.forEach(number => {
       const mixedIndex = mixed.indexOf(number);
       mixed.splice(mixedIndex, 1);
       const newIndex = (mixedIndex + number.n) % mixed.length;

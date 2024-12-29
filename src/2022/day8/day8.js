@@ -7,7 +7,6 @@ import {
   identity,
   juxt,
   length,
-  gte,
   map,
   max,
   multiply,
@@ -23,17 +22,17 @@ const listMax = reduce(max, -Infinity);
 const gridSlice = (x, y, grid) => [
   grid[x].slice(0, y).reverse(),
   grid
-      .slice(0, x)
-      .map((row) => row[y])
-      .reverse(),
+    .slice(0, x)
+    .map(row => row[y])
+    .reverse(),
   grid[x].slice(y + 1, grid[x].length),
-  grid.slice(x + 1, grid.length).map((row) => row[y]),
+  grid.slice(x + 1, grid.length).map(row => row[y]),
 ];
 
 const isVisible = (x, y, data) =>
   gridSlice(x, y, data)
     .map(listMax)
-    .some((max) => max < data[x][y]);
+    .some(max => max < data[x][y]);
 
 const scenic = compose(
   reduce(multiply, 1),

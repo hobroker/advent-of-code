@@ -41,7 +41,7 @@ const part1 = compose(({ seeds, maps }) => {
 const part2 = compose(
   ({ seeds, maps }) => {
     let copy = [...seeds.map(seed => [...seed])];
-    for (let map of maps) {
+    for (const map of maps) {
       const moved = [];
       for (const [destination, source, length] of map) {
         const unmoved = [];

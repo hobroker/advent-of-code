@@ -13,7 +13,7 @@ import {
 
 const data = read('input.txt');
 const SOURCE = 500;
-const mapToArray = (map) => [...map.values()];
+const mapToArray = map => [...map.values()];
 const flatMap = curry((fn, array) => array.flatMap(fn));
 
 const parse = compose(
@@ -22,7 +22,7 @@ const parse = compose(
     [new Map(), 0],
   ),
   map(([x, y]) => x | (y << 16)),
-  flatMap((scan) =>
+  flatMap(scan =>
     scan.reduce((coords, v, i) => {
       if (i === 0) return coords.concat([v]);
       let prev = coords.at(-1);
@@ -40,9 +40,9 @@ const parse = compose(
 
 const update = (cave, pos, filter = () => true) => {
   const next = [0, -1, 1]
-    .map((delta) => delta + pos + (1 << 16))
+    .map(delta => delta + pos + (1 << 16))
     .filter(filter)
-    .find((p) => !cave.has(p));
+    .find(p => !cave.has(p));
   if (!next) {
     cave.set(pos, 'o');
   }

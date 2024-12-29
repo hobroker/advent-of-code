@@ -2,7 +2,8 @@ import { read } from '../../../lib/read.js';
 import {
   compose,
   concat,
-  converge, find,
+  converge,
+  find,
   head,
   last,
   map,
@@ -14,7 +15,7 @@ import {
 const data = read('input.txt');
 
 const prepare = compose(split('\n'));
-const toNumber = (value) => {
+const toNumber = value => {
   if (value === 'one') return 1;
   if (value === 'two') return 2;
   if (value === 'three') return 3;
@@ -36,7 +37,7 @@ const part1 = compose(
 const part2 = compose(
   sum,
   map(compose(Number, converge(concat, [head, last]), match(/\d/g))),
-  map((item) => {
+  map(item => {
     const matcher =
       /[0-9]|(?=(one))|(?=(two))|(?=(three))|(?=(four))|(?=(five))|(?=(six))|(?=(seven))|(?=(eight))|(?=(nine))/g;
     const matches = [...item.matchAll(matcher)];

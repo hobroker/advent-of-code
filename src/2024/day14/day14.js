@@ -61,8 +61,8 @@ const tick = ({ robots, matrix }) => {
     const [[positionY, positionX], [velocityY, velocityX]] = robot;
     const cell = matrix[positionX][positionY];
     cell.splice(cell.findIndex(equals(robot)), 1);
-    let nextX = (positionX + velocityX + matrix.length) % matrix.length;
-    let nextY = (positionY + velocityY + matrix[0].length) % matrix[0].length;
+    const nextX = (positionX + velocityX + matrix.length) % matrix.length;
+    const nextY = (positionY + velocityY + matrix[0].length) % matrix[0].length;
     matrix[nextX][nextY].push(robot);
     robot[0] = [nextY, nextX];
   });

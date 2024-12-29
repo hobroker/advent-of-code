@@ -53,14 +53,14 @@ const part1 = compose(
   filter(
     compose(
       all(Boolean),
-      map((set) => !(set.red > 12 || set.green > 13 || set.blue > 14)),
+      map(set => !(set.red > 12 || set.green > 13 || set.blue > 14)),
       prop('sets'),
     ),
   ),
   prepare,
 );
 
-const maxOf = (color) => compose(reduce(max, -Infinity), map(prop(color)));
+const maxOf = color => compose(reduce(max, -Infinity), map(prop(color)));
 
 const part2 = compose(
   sum,

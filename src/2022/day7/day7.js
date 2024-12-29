@@ -14,7 +14,7 @@ import {
 
 const data = read('input.txt');
 
-const parse = (lines) => {
+const parse = lines => {
   let cd = [];
   return lines.reduce((acc, line) => {
     if (line.startsWith('$ cd ')) {
@@ -40,7 +40,7 @@ const calculate = (tree, list = []) => {
   return [total, ...list];
 };
 
-const findCandidatesToDelete = (list) =>
+const findCandidatesToDelete = list =>
   list.filter(lte(30000000 - (70000000 - list[0])));
 
 const prepare = compose(calculate, parse, split('\n'));

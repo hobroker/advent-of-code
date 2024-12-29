@@ -24,7 +24,7 @@ import {
 
 const data = read('input.txt');
 
-const evaluate = (expression) => Function(`return ${expression}`)();
+const evaluate = expression => Function(`return ${expression}`)();
 const matchNumbers = compose(map(Number), match(/(\d+)/g));
 const calculateSupermod = reduce((acc, { mod }) => acc * mod, 1);
 const prepare = compose(
@@ -36,7 +36,7 @@ const prepare = compose(
         mod: compose(head, matchNumbers, nth(2)),
         test: compose(
           ([mod, truthy, falsy]) =>
-            (value) =>
+            value =>
               value % mod === 0 ? truthy : falsy,
           juxt([
             compose(head, matchNumbers, nth(0)),
@@ -55,9 +55,9 @@ const prepare = compose(
 );
 
 const round = (divide, supermod, monkeys) =>
-  monkeys.forEach((monkey) => {
+  monkeys.forEach(monkey => {
     const { items, operation, test } = monkey;
-    items.forEach((item) => {
+    items.forEach(item => {
       let worry = evaluate(operation.replaceAll('old', item % supermod));
       if (divide) {
         worry = Math.floor(worry / 3);

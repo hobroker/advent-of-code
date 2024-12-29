@@ -7,7 +7,7 @@ const prepare = compose(map(split('')), split('\n'));
 
 const radiateAntenna = (matrix, from, diff, direction, max) => {
   let count = 0;
-  let next = {
+  const next = {
     x: from.x + direction * diff.x,
     y: from.y + direction * diff.y,
   };

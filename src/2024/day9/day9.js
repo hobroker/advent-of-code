@@ -28,7 +28,7 @@ const checksum = addIndex(reduce)(
 
 const lastNonDotElement = list => {
   while (list.length > 0) {
-    let item = list.pop();
+    const item = list.pop();
     if (item !== '.') return item;
   }
 };

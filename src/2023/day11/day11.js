@@ -9,7 +9,6 @@ import {
   max,
   min,
   reduce,
-  slice,
   split,
   sum,
   transpose,

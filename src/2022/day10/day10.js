@@ -6,11 +6,11 @@ const data = read('input.txt');
 const checkpoints = [20, 60, 100, 140, 180, 220];
 
 const prepare = compose(map(split(' ')), split('\n'));
-const parse = (instructions) => {
+const parse = instructions => {
   let cycle = 1;
   let x = 1;
   return instructions.reduce((acc, [command, arg]) => {
-    let prevX = x;
+    const prevX = x;
     if (command === 'noop') {
       cycle++;
     } else {
@@ -29,8 +29,8 @@ const parse = (instructions) => {
   }, 0);
 };
 
-const render = (instructions) => {
-  let crt = new Array(6).fill('');
+const render = instructions => {
+  const crt = new Array(6).fill('');
   let cycle = 0;
   let x = 1;
   instructions.forEach(([command, arg]) => {

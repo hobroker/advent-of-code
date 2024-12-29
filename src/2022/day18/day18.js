@@ -17,7 +17,7 @@ const part1 = compose(
   prepare,
 );
 const addCube = (c1, c2) => c1.map((v, i) => v + c2[i]);
-const k = (cube) => cube.join('_');
+const k = cube => cube.join('_');
 const dirs = [
   [1, 0, 0],
   [-1, 0, 0],
@@ -29,11 +29,11 @@ const dirs = [
 
 const part2 = compose(
   ({ cubes, min, max, cubeSet }) => {
-    const inRange = (cube) => cube.every((v, i) => v >= min[i] && v <= max[i]);
+    const inRange = cube => cube.every((v, i) => v >= min[i] && v <= max[i]);
     const processed = new Set();
     const water = [];
 
-    const spread = (cube) => {
+    const spread = cube => {
       if (processed.has(k(cube))) return;
       processed.add(k(cube));
       water.push(cube);
@@ -46,8 +46,7 @@ const part2 = compose(
     spread(min);
 
     return water.reduce(
-      (acc, c1) =>
-        acc + cubes.filter((c2) => cubeDistance(c1, c2) === 1).length,
+      (acc, c1) => acc + cubes.filter(c2 => cubeDistance(c1, c2) === 1).length,
       0,
     );
   },

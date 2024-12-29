@@ -1,5 +1,5 @@
 import { read } from '../../../lib/read.js';
-import { compose, equals, map, reduce, split, tap } from 'ramda';
+import { compose, equals, map, reduce, split } from 'ramda';
 
 const data = read('input.txt');
 
@@ -20,8 +20,8 @@ const findGuardXY = matrix => {
   };
 };
 
-const logMatrix = matrix =>
-  console.log(matrix.map((row, i) => `${i} ` + row.join('')).join('\n'));
+// const logMatrix = matrix =>
+  // console.log(matrix.map((row, i) => `${i} ` + row.join('')).join('\n'));
 
 const findNextDirection = direction => {
   const index = directions.findIndex(

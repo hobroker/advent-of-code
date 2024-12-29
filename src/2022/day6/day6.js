@@ -3,8 +3,8 @@ import { add, compose, split } from 'ramda';
 
 const data = read('input.txt');
 
-const findWindowIndex = (size) =>
-  compose(add(size), (list) =>
+const findWindowIndex = size =>
+  compose(add(size), list =>
     list.findIndex(
       (_, idx) => new Set(list.slice(idx, idx + size)).size === size,
     ),

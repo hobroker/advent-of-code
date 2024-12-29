@@ -21,7 +21,7 @@ import {
 const data = read('input.txt');
 const DECODERS = [[[2]], [[6]]];
 
-const flatten1 = (list) => list.flatMap(identity);
+const flatten1 = list => list.flatMap(identity);
 const reduceIndexed = addIndex(reduce);
 
 const compare = (a, b) => {
