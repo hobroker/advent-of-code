@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-### 2024 (70%)
+### 2024 (72%)
 
 | Day                           | Stars                           | Link to problem                            |
 | ----------------------------- | ------------------------------- | ------------------------------------------ |
@@ -22,7 +22,7 @@
 | [14](src/2024/day14/day14.js) | [⭐️⭐️](src/2024/day14/day14.js) | [🔗](https://adventofcode.com/2024/day/14) |
 | [15](src/2024/day15/day15.js) | [⭐️⭐️](src/2024/day15/day15.js) | [🔗](https://adventofcode.com/2024/day/15) |
 | 16                            |                                 | [🔗](https://adventofcode.com/2024/day/16) |
-| 17                            |                                 | [🔗](https://adventofcode.com/2024/day/17) |
+| [17](src/2024/day17/day17.js) | [⭐️](src/2024/day17/day17.js)   | [🔗](https://adventofcode.com/2024/day/17) |
 | 18                            |                                 | [🔗](https://adventofcode.com/2024/day/18) |
 | [19](src/2024/day19/day19.js) | [⭐️⭐️](src/2024/day19/day19.js) | [🔗](https://adventofcode.com/2024/day/19) |
 | 20                            |                                 | [🔗](https://adventofcode.com/2024/day/20) |
@@ -91,5 +91,35 @@
 | 23                            |                                 | [🔗](https://adventofcode.com/2022/day/23) |
 | 24                            |                                 | [🔗](https://adventofcode.com/2022/day/24) |
 | [25](src/2022/day25/day25.js) | [⭐️](src/2022/day25/day25.js)   | [🔗](https://adventofcode.com/2022/day/25) |
+
+### 2021 (0%)
+
+| Day | Stars | Link to problem                            |
+| --- | ----- | ------------------------------------------ |
+| 1   |       | [🔗](https://adventofcode.com/2021/day/1)  |
+| 2   |       | [🔗](https://adventofcode.com/2021/day/2)  |
+| 3   |       | [🔗](https://adventofcode.com/2021/day/3)  |
+| 4   |       | [🔗](https://adventofcode.com/2021/day/4)  |
+| 5   |       | [🔗](https://adventofcode.com/2021/day/5)  |
+| 6   |       | [🔗](https://adventofcode.com/2021/day/6)  |
+| 7   |       | [🔗](https://adventofcode.com/2021/day/7)  |
+| 8   |       | [🔗](https://adventofcode.com/2021/day/8)  |
+| 9   |       | [🔗](https://adventofcode.com/2021/day/9)  |
+| 10  |       | [🔗](https://adventofcode.com/2021/day/10) |
+| 11  |       | [🔗](https://adventofcode.com/2021/day/11) |
+| 12  |       | [🔗](https://adventofcode.com/2021/day/12) |
+| 13  |       | [🔗](https://adventofcode.com/2021/day/13) |
+| 14  |       | [🔗](https://adventofcode.com/2021/day/14) |
+| 15  |       | [🔗](https://adventofcode.com/2021/day/15) |
+| 16  |       | [🔗](https://adventofcode.com/2021/day/16) |
+| 17  |       | [🔗](https://adventofcode.com/2021/day/17) |
+| 18  |       | [🔗](https://adventofcode.com/2021/day/18) |
+| 19  |       | [🔗](https://adventofcode.com/2021/day/19) |
+| 20  |       | [🔗](https://adventofcode.com/2021/day/20) |
+| 21  |       | [🔗](https://adventofcode.com/2021/day/21) |
+| 22  |       | [🔗](https://adventofcode.com/2021/day/22) |
+| 23  |       | [🔗](https://adventofcode.com/2021/day/23) |
+| 24  |       | [🔗](https://adventofcode.com/2021/day/24) |
+| 25  |       | [🔗](https://adventofcode.com/2021/day/25) |
 
 ---
