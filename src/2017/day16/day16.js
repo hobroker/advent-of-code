@@ -43,7 +43,20 @@ const loop = converge(
 
 const part1 = compose(join(''), loop, prepare);
 
-// const part2 = compose(prepare);
+const part2 = compose(({ steps, programs }) => {
+  const seen = new Set();
+  let count = 0;
+  let copy = loop({ steps, programs });
+  while (true) {
+    const identifier = copy.join('');
+    if (seen.has(identifier)) {
+      return [...seen][(1_000_000_000 % count) - 1];
+    }
+    seen.add(identifier);
+    count++;
+    copy = loop({ steps, programs: copy });
+  }
+}, prepare);
 
 console.log('part 1', part1(data));
-// console.log('part 2', part2(data));
+console.log('part 2', part2(data));
