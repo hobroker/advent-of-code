@@ -122,34 +122,34 @@
 | 24                            |                                 | [🔗](https://adventofcode.com/2017/day/24) |
 | [25](src/2017/day25/day25.js) | [⭐️](src/2017/day25/day25.js)   | [🔗](https://adventofcode.com/2017/day/25) |
 
-### 2015 (32%)
+### 2015 (36%)
 
-| Day                        | Stars                         | Link to problem                            |
-| -------------------------- | ----------------------------- | ------------------------------------------ |
-| [1](src/2015/day1/day1.js) | [⭐️⭐️](src/2015/day1/day1.js) | [🔗](https://adventofcode.com/2015/day/1)  |
-| [2](src/2015/day2/day2.js) | [⭐️⭐️](src/2015/day2/day2.js) | [🔗](https://adventofcode.com/2015/day/2)  |
-| [3](src/2015/day3/day3.js) | [⭐️⭐️](src/2015/day3/day3.js) | [🔗](https://adventofcode.com/2015/day/3)  |
-| [4](src/2015/day4/day4.js) | [⭐️⭐️](src/2015/day4/day4.js) | [🔗](https://adventofcode.com/2015/day/4)  |
-| [5](src/2015/day5/day5.js) | [⭐️⭐️](src/2015/day5/day5.js) | [🔗](https://adventofcode.com/2015/day/5)  |
-| [6](src/2015/day6/day6.js) | [⭐️⭐️](src/2015/day6/day6.js) | [🔗](https://adventofcode.com/2015/day/6)  |
-| 7                          |                               | [🔗](https://adventofcode.com/2015/day/7)  |
-| [8](src/2015/day8/day8.js) | [⭐️⭐️](src/2015/day8/day8.js) | [🔗](https://adventofcode.com/2015/day/8)  |
-| [9](src/2015/day9/day9.js) | [⭐️⭐️](src/2015/day9/day9.js) | [🔗](https://adventofcode.com/2015/day/9)  |
-| 10                         |                               | [🔗](https://adventofcode.com/2015/day/10) |
-| 11                         |                               | [🔗](https://adventofcode.com/2015/day/11) |
-| 12                         |                               | [🔗](https://adventofcode.com/2015/day/12) |
-| 13                         |                               | [🔗](https://adventofcode.com/2015/day/13) |
-| 14                         |                               | [🔗](https://adventofcode.com/2015/day/14) |
-| 15                         |                               | [🔗](https://adventofcode.com/2015/day/15) |
-| 16                         |                               | [🔗](https://adventofcode.com/2015/day/16) |
-| 17                         |                               | [🔗](https://adventofcode.com/2015/day/17) |
-| 18                         |                               | [🔗](https://adventofcode.com/2015/day/18) |
-| 19                         |                               | [🔗](https://adventofcode.com/2015/day/19) |
-| 20                         |                               | [🔗](https://adventofcode.com/2015/day/20) |
-| 21                         |                               | [🔗](https://adventofcode.com/2015/day/21) |
-| 22                         |                               | [🔗](https://adventofcode.com/2015/day/22) |
-| 23                         |                               | [🔗](https://adventofcode.com/2015/day/23) |
-| 24                         |                               | [🔗](https://adventofcode.com/2015/day/24) |
-| 25                         |                               | [🔗](https://adventofcode.com/2015/day/25) |
+| Day                           | Stars                           | Link to problem                            |
+| ----------------------------- | ------------------------------- | ------------------------------------------ |
+| [1](src/2015/day1/day1.js)    | [⭐️⭐️](src/2015/day1/day1.js)   | [🔗](https://adventofcode.com/2015/day/1)  |
+| [2](src/2015/day2/day2.js)    | [⭐️⭐️](src/2015/day2/day2.js)   | [🔗](https://adventofcode.com/2015/day/2)  |
+| [3](src/2015/day3/day3.js)    | [⭐️⭐️](src/2015/day3/day3.js)   | [🔗](https://adventofcode.com/2015/day/3)  |
+| [4](src/2015/day4/day4.js)    | [⭐️⭐️](src/2015/day4/day4.js)   | [🔗](https://adventofcode.com/2015/day/4)  |
+| [5](src/2015/day5/day5.js)    | [⭐️⭐️](src/2015/day5/day5.js)   | [🔗](https://adventofcode.com/2015/day/5)  |
+| [6](src/2015/day6/day6.js)    | [⭐️⭐️](src/2015/day6/day6.js)   | [🔗](https://adventofcode.com/2015/day/6)  |
+| 7                             |                                 | [🔗](https://adventofcode.com/2015/day/7)  |
+| [8](src/2015/day8/day8.js)    | [⭐️⭐️](src/2015/day8/day8.js)   | [🔗](https://adventofcode.com/2015/day/8)  |
+| [9](src/2015/day9/day9.js)    | [⭐️⭐️](src/2015/day9/day9.js)   | [🔗](https://adventofcode.com/2015/day/9)  |
+| [10](src/2015/day10/day10.js) | [⭐️⭐️](src/2015/day10/day10.js) | [🔗](https://adventofcode.com/2015/day/10) |
+| 11                            |                                 | [🔗](https://adventofcode.com/2015/day/11) |
+| 12                            |                                 | [🔗](https://adventofcode.com/2015/day/12) |
+| 13                            |                                 | [🔗](https://adventofcode.com/2015/day/13) |
+| 14                            |                                 | [🔗](https://adventofcode.com/2015/day/14) |
+| 15                            |                                 | [🔗](https://adventofcode.com/2015/day/15) |
+| 16                            |                                 | [🔗](https://adventofcode.com/2015/day/16) |
+| 17                            |                                 | [🔗](https://adventofcode.com/2015/day/17) |
+| 18                            |                                 | [🔗](https://adventofcode.com/2015/day/18) |
+| 19                            |                                 | [🔗](https://adventofcode.com/2015/day/19) |
+| 20                            |                                 | [🔗](https://adventofcode.com/2015/day/20) |
+| 21                            |                                 | [🔗](https://adventofcode.com/2015/day/21) |
+| 22                            |                                 | [🔗](https://adventofcode.com/2015/day/22) |
+| 23                            |                                 | [🔗](https://adventofcode.com/2015/day/23) |
+| 24                            |                                 | [🔗](https://adventofcode.com/2015/day/24) |
+| 25                            |                                 | [🔗](https://adventofcode.com/2015/day/25) |
 
 ---
