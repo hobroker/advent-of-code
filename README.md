@@ -122,7 +122,7 @@
 | 24                            |                                 | [🔗](https://adventofcode.com/2017/day/24) |
 | [25](src/2017/day25/day25.js) | [⭐️](src/2017/day25/day25.js)   | [🔗](https://adventofcode.com/2017/day/25) |
 
-### 2015 (86%)
+### 2015 (90%)
 
 | Day                           | Stars                           | Link to problem                            |
 | ----------------------------- | ------------------------------- | ------------------------------------------ |
@@ -149,7 +149,7 @@
 | [21](src/2015/day21/day21.js) | [⭐️⭐️](src/2015/day21/day21.js) | [🔗](https://adventofcode.com/2015/day/21) |
 | 22                            |                                 | [🔗](https://adventofcode.com/2015/day/22) |
 | [23](src/2015/day23/day23.js) | [⭐️⭐️](src/2015/day23/day23.js) | [🔗](https://adventofcode.com/2015/day/23) |
-| 24                            |                                 | [🔗](https://adventofcode.com/2015/day/24) |
+| [24](src/2015/day24/day24.js) | [⭐️⭐️](src/2015/day24/day24.js) | [🔗](https://adventofcode.com/2015/day/24) |
 | 25                            |                                 | [🔗](https://adventofcode.com/2015/day/25) |
 
 ---
