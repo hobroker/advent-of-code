@@ -122,7 +122,7 @@
 | 24                         |                               | [🔗](https://adventofcode.com/2019/day/24) |
 | 25                         |                               | [🔗](https://adventofcode.com/2019/day/25) |
 
-### 2018 (30%)
+### 2018 (32%)
 
 | Day                           | Stars                           | Link to problem                            |
 | ----------------------------- | ------------------------------- | ------------------------------------------ |
@@ -132,7 +132,7 @@
 | [4](src/2018/day4/day4.js)    | [⭐️⭐️](src/2018/day4/day4.js)   | [🔗](https://adventofcode.com/2018/day/4)  |
 | [5](src/2018/day5/day5.js)    | [⭐️⭐️](src/2018/day5/day5.js)   | [🔗](https://adventofcode.com/2018/day/5)  |
 | 6                             |                                 | [🔗](https://adventofcode.com/2018/day/6)  |
-| 7                             |                                 | [🔗](https://adventofcode.com/2018/day/7)  |
+| [7](src/2018/day7/day7.js)    | [⭐️](src/2018/day7/day7.js)     | [🔗](https://adventofcode.com/2018/day/7)  |
 | 8                             |                                 | [🔗](https://adventofcode.com/2018/day/8)  |
 | 9                             |                                 | [🔗](https://adventofcode.com/2018/day/9)  |
 | 10                            |                                 | [🔗](https://adventofcode.com/2018/day/10) |
